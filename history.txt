@@ -1,0 +1,62 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo locale-gen UTF-8
+    3  dockre ps
+    4  docker ps
+    5  docker ps -a
+    6  cd my_busybox
+    7  mkdir my_busybox; cd my_busybox
+    8  vim Dockerfile
+    9  #docker build -tag my
+   10  cd ..
+   11  docker build --tag my_busybox:2.1 my_busybox
+   12  docker run -it my_busybox
+   13  docker run -it my_busybox /bin/sh
+   14  docker run -it my_busybox:2.1 /bin/sh
+   15  docker imager
+   16  docker images
+   17  vim my_busybox/Dockerfile 
+   18  docker ps -a
+   19  docker logs 2a
+   20  docker logs b6
+   21  docker logs evil
+   22  docker logs 2ac
+   23  docker logs b6
+   24  vim my_busybox/Dockerfile 
+   25  docker run -it my_busybox:2.1 /bin/sh
+   26  docker build --tag my_busybox:2.1 my_busybox
+   27  docker run -it my_busybox:2.1 /bin/sh
+   28  docker ps -a
+   29  docker logs a7
+   30  vim my_busybox/Dockerfile 
+   31  docker build --tag my_busybox:2.1 my_busybox
+   32  docker run -it my_busybox:2.1 /bin/sh
+   33  docker ps -a
+   34  docker logs 90
+   35  docker imags
+   36  docker images
+   37  docker images rm 9c
+   38  docker rm
+   39  docker rmi 9c 72
+   40  docker rmi 9c 72 -f
+   41  docker rmi -f 9c 72
+   42  docker ps
+   43  docker ps -a
+   44  docker rm a74 d79
+   45  docker rm 2a b6 56
+   46* docker ps -
+   47  docker rm 90
+   48  vim my_busybox/Dockerfile 
+   49  cd my_busybox/
+   50  docker build --tag my_busybox:2.1 .
+   51  docker run -it my_busybox:2.1
+   54  vim Dockerfile 
+   55  docker build --tag my_busybox:2.1 .
+   58  docker run -it my_busybox:2.1 HelloWorldFromDockerfile2.txt
+   59  git
+   60  git init .
+   61  t s
+   62  git status
+   63  git aa
+   64  git add --all
+   65  t s
+   66  history > history.txt
