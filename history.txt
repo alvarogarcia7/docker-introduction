@@ -60,3 +60,17 @@
    64  git add --all
    65  t s
    66  history > history.txt
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo locale-gen UTF-8
+    3  cd my_busybox/
+    4  ls
+    5  vim README.txt 
+    6  t d
+    7  ts
+    8  git status
+    9  git commit --all -m "Add comment about readonly volumes"
+   10  docker network ls
+   11  history > history.txt 
+   12  git diff
+   13  git checkout .
+   14  history >> history.txt 

@@ -5,3 +5,13 @@
 
   * Volumes:
     * With `:ro`, you can share a file in read-only mode. For example, to pass environment variables
+
+## NETWORK
+
+  * `bridge`: to connect to the external network (e.g., Internet)
+  * `host`: a fast adapter, the real one (i.e., not emulated)
+  * `none`: for images that do not need internet connection
+
+
+
+
