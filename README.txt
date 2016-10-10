@@ -6,6 +6,8 @@
   * Volumes:
     * With `:ro`, you can share a file in read-only mode. For example, to pass environment variables
 
+  * `--net=xxx` you can assign it to a network, instead of `bridge` (see #NETWORK)
+
 ## NETWORK
 
   * `bridge`: to connect to the external network (e.g., Internet)
